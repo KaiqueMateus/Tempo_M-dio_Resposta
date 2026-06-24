@@ -4,12 +4,14 @@
 
 ![License](https://img.shields.io/badge/License-MIT-blue)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Excel-217346?logo=microsoftexcel&logoColor=white)
-![DAX](https://img.shields.io/badge/DAX-FFCA28)
-![Power Query](https://img.shields.io/badge/Power_Query_M-1F6FEB)
 ![SAP](https://img.shields.io/badge/SAP-0FAAFF?logo=sap&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?logo=postgresql&logoColor=white)
 ![SAP HANA](https://img.shields.io/badge/SAP_HANA-0FAAFF?logo=sap&logoColor=white)
+![ServiceNow](https://img.shields.io/badge/ServiceNow-81B5A1?logo=servicenow&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?logo=postgresql&logoColor=white)
+![Alteryx](https://img.shields.io/badge/Alteryx-0078D4)
+![DAX](https://img.shields.io/badge/DAX-FFCA28)
+![Excel](https://img.shields.io/badge/Excel-217346?logo=microsoftexcel&logoColor=white)
+
 ---
 
 ## 🖼️ Preview do Painel
