@@ -1,0 +1,443 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>entradas e saídas - 2026.01.xlsx
+Query=`Page 1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Número" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Empresa" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="SLA" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="Double" />
+            <Field name="TMA" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="Double" />
+            <Field name="Contrato" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Solicitante" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Descrição resumida" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_WString" />
+            <Field name="Categorização" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Estado" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Grupo de atribuição" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Referência" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Aberto(a)" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="DateTime" />
+            <Field name="Criado em" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="DateTime" />
+            <Field name="Encerrado" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="DateTime" />
+            <Field name="Path" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Departamento" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Category" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="E-mail" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Aberto(a) por" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Criado(a) por" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Fechado na Abertura" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="Bool" />
+            <Field name="Prioridade" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Reaberto" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="DateTime" />
+            <Field name="Subcategoria" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="Double" />
+            <Field name="Urgência" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Impacto" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Contato" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Departamento2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Efetivo" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Empresa2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Departamento3" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Escalado" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Projeto" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Contagem de reatribuições" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="Double" />
+            <Field name="Descrição" size="2249" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_WString" />
+            <Field name="Título" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Título2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Problema" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.01.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>entradas e saídas - 2026.02.xlsx
+Query=`Planilha2$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Número" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_String" />
+            <Field name="Empresa" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_WString" />
+            <Field name="Contrato" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_String" />
+            <Field name="SLA" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="Double" />
+            <Field name="TMA" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="Double" />
+            <Field name="Solicitante" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_String" />
+            <Field name="Descrição resumida" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_String" />
+            <Field name="Categorização" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_String" />
+            <Field name="Grupo de atribuição" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_WString" />
+            <Field name="Referência" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_String" />
+            <Field name="Aberto(a)" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="DateTime" />
+            <Field name="Criado em" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="DateTime" />
+            <Field name="Encerrado" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="DateTime" />
+            <Field name="Path" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_String" />
+            <Field name="Departamento" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_WString" />
+            <Field name="Category" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_String" />
+            <Field name="E-mail" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_String" />
+            <Field name="Aberto(a) por" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_String" />
+            <Field name="Criado(a) por" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_String" />
+            <Field name="Fechado na Abertura" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="Bool" />
+            <Field name="Prioridade" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_String" />
+            <Field name="Reaberto" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="DateTime" />
+            <Field name="Subcategoria" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="Double" />
+            <Field name="Urgência" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_String" />
+            <Field name="Impacto" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_String" />
+            <Field name="Contato" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_String" />
+            <Field name="Departamento2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_String" />
+            <Field name="Empresa2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_String" />
+            <Field name="Departamento3" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_WString" />
+            <Field name="Escalado" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_String" />
+            <Field name="Projeto" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_String" />
+            <Field name="Contagem de reatribuições" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="Double" />
+            <Field name="Anotações de trabalho" size="5178" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_WString" />
+            <Field name="Comentários" size="23045" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_WString" />
+            <Field name="Comentários e Anotações de trabalho" size="23045" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_WString" />
+            <Field name="Título" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_String" />
+            <Field name="Descrição" size="4728" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\ENTRADAS E SAÍDAS_CADASTRO\entradas e saídas - 2026.02.xlsx|||`Planilha2$`" type="V_WString" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="234" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="330" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\KAIQUE~1.SOU\AppData\Local\Temp\Alteryx\Engine_28708_d7d5f1ac1e894a2c92cc9f8613d360e3_\Engine_28708_dec07226cb4f4443a0f190e15fd47c26~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Perfil</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings>
+        <Position x="138" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Número","Empresa","SLA","TMA","Contrato","Solicitante","Descrição resumida","Categorização","Estado","Grupo de atribuição","Referência","Aberto(a)","Criado em","Encerrado","Path","Departamento","Category","E-mail","Aberto(a) por","Criado(a) por","Fechado na Abertura","Prioridade","Reaberto","Subcategoria","Urgência","Impacto","Contato","Departamento2","Efetivo","Empresa2","Departamento3","Escalado","Projeto","Contagem de reatribuições","Descrição","Título","Título2","Problema","FileName"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings>
+        <Position x="126" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Número","Empresa","Contrato","SLA","TMA","Solicitante","Descrição resumida","Categorização","Grupo de atribuição","Referência","Aberto(a)","Criado em","Encerrado","Path","Departamento","Category","E-mail","Aberto(a) por","Criado(a) por","Fechado na Abertura","Prioridade","Reaberto","Subcategoria","Urgência","Impacto","Contato","Departamento2","Empresa2","Departamento3","Escalado","Projeto","Contagem de reatribuições","Anotações de trabalho","Comentários","Comentários e Anotações de trabalho","Título","Descrição","FileName"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="318" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Número" selected="True" />
+            <SelectField field="Empresa" selected="True" />
+            <SelectField field="SLA" selected="True" />
+            <SelectField field="TMA" selected="True" />
+            <SelectField field="Descrição resumida" selected="True" />
+            <SelectField field="Categorização" selected="True" />
+            <SelectField field="Grupo de atribuição" selected="True" />
+            <SelectField field="Aberto(a)" selected="True" />
+            <SelectField field="Encerrado" selected="True" />
+            <SelectField field="Path" selected="True" />
+            <SelectField field="Título" selected="True" />
+            <SelectField field="Título2" selected="True" />
+            <SelectField field="FileName" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="438" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\KAIQUE~1.SOU\AppData\Local\Temp\Alteryx\Engine_28708_d7d5f1ac1e894a2c92cc9f8613d360e3_\Engine_28708_15a86301430c4c90a503694aac126686~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Perfil</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="390" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Regex_Replace([Path], &quot;//.*&quot;, &quot;&quot;)" field="TIPO" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[TIPO = Regex_Replace([Path], "//.*", "")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="474" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\KAIQUE~1.SOU\AppData\Local\Temp\Alteryx\Engine_28708_d7d5f1ac1e894a2c92cc9f8613d360e3_\Engine_28708_9db96f63b6b74f56bc5c7a8bfc04b33d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Perfil</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="5" Connection="Output26" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="6" Connection="Output26" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>(F) Cadastro</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="8e49b753-e87d-4ca4-bc25-17fe84dc6465" />
+      <Telemetry>
+        <PreviousWorkflowId value="ef7879f2-74d0-4f47-9039-3a234b608d7f" />
+        <OriginWorkflowId value="ef7879f2-74d0-4f47-9039-3a234b608d7f" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

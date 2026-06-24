@@ -1,0 +1,913 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Dados_Compras.xlsx
+Query=`Plan1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Novo/Mês" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="ID_Chamado" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="DATA_ABERTURA" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="DateTime" />
+            <Field name="DATA_FECHAMENTO" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="DateTime" />
+            <Field name="TIPO_CHAMADO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="TMA_HRS" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="FONTE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="INCIDENTE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="Path" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_WString" />
+            <Field name="Problema" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="TIPO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="FUNCIONALIDADE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="CLASSIFICAÇÃO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="CATEGORIA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_WString" />
+            <Field name="SUBCATEGORIA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="TIPO_FUNIL" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="SLA" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="INDICADOR_SLA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Chaves de Chamados.xlsx
+Query=`Page 1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Número" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Estado" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Descrição resumida" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_WString" />
+            <Field name="Descrição" size="3390" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_WString" />
+            <Field name="Grupo de atribuição" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Referência" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Problema" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Aberto" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="DateTime" />
+            <Field name="Criado em" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="DateTime" />
+            <Field name="Encerrado" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="DateTime" />
+            <Field name="Category" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Path" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_WString" />
+            <Field name="Categorização" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Subcategoria" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="Double" />
+            <Field name="Solicitante" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Título" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="E-mail" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Departamento" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Contato" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Título2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="E-mail2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Departamento2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Empresa" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Criado(a) por" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Aberto por" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="E-mail3" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Fechado na Abertura" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="Bool" />
+            <Field name="Prioridade" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Reaberto" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="Double" />
+            <Field name="Urgência" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Impacto" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Escalado" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Projeto" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Contagem de reatribuições" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="222" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="INCIDENTE" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Número" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Novo/Mês" selected="True" input="Left_" />
+                <SelectField field="Left_ID_Chamado" selected="True" input="Left_" />
+                <SelectField field="Left_DATA_ABERTURA" selected="True" input="Left_" />
+                <SelectField field="Left_DATA_FECHAMENTO" selected="True" input="Left_" />
+                <SelectField field="Left_TIPO_CHAMADO" selected="True" input="Left_" />
+                <SelectField field="Left_TMA_HRS" selected="True" input="Left_" />
+                <SelectField field="Left_FONTE" selected="True" input="Left_" />
+                <SelectField field="Left_INCIDENTE" selected="True" input="Left_" />
+                <SelectField field="Left_Path" selected="True" input="Left_" />
+                <SelectField field="Left_Problema" selected="True" input="Left_" />
+                <SelectField field="Left_TIPO" selected="True" input="Left_" />
+                <SelectField field="Left_FUNCIONALIDADE" selected="True" input="Left_" />
+                <SelectField field="Left_CLASSIFICAÇÃO" selected="True" input="Left_" />
+                <SelectField field="Left_CATEGORIA" selected="True" input="Left_" />
+                <SelectField field="Left_SUBCATEGORIA" selected="True" input="Left_" />
+                <SelectField field="Left_TIPO_FUNIL" selected="True" input="Left_" />
+                <SelectField field="Left_SLA" selected="True" input="Left_" />
+                <SelectField field="Left_INDICADOR_SLA" selected="True" input="Left_" />
+                <SelectField field="Right_Número" selected="True" input="Right_" />
+                <SelectField field="Right_Problema" selected="False" rename="Right_Problema" input="Right_" />
+                <SelectField field="Right_Path" selected="False" rename="Right_Path" input="Right_" />
+                <SelectField field="Right_Subcategoria" selected="False" rename="Right_Subcategoria" input="Right_" />
+                <SelectField field="Right_Título2" selected="True" input="Right_" />
+                <SelectField field="Right_E-mail2" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="Novo/Mês" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="ID_Chamado" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="DATA_ABERTURA" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="DateTime" />
+            <Field name="DATA_FECHAMENTO" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="DateTime" />
+            <Field name="TIPO_CHAMADO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="TMA_HRS" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="FONTE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="INCIDENTE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="Path" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_WString" />
+            <Field name="Problema" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="TIPO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="FUNCIONALIDADE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="CLASSIFICAÇÃO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="CATEGORIA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_WString" />
+            <Field name="SUBCATEGORIA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="TIPO_FUNIL" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="SLA" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="INDICADOR_SLA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="Novo/Mês" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="ID_Chamado" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="DATA_ABERTURA" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="DateTime" />
+            <Field name="DATA_FECHAMENTO" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="DateTime" />
+            <Field name="TIPO_CHAMADO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="TMA_HRS" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="FONTE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="INCIDENTE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="Path" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_WString" />
+            <Field name="Problema" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="TIPO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="FUNCIONALIDADE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="CLASSIFICAÇÃO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="CATEGORIA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_WString" />
+            <Field name="SUBCATEGORIA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="TIPO_FUNIL" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="SLA" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="INDICADOR_SLA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="Número" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Título2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="E-mail2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="Número" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Estado" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Descrição resumida" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_WString" />
+            <Field name="Descrição" size="3390" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_WString" />
+            <Field name="Grupo de atribuição" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Referência" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Problema" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Aberto" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="DateTime" />
+            <Field name="Criado em" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="DateTime" />
+            <Field name="Encerrado" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="DateTime" />
+            <Field name="Category" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Path" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_WString" />
+            <Field name="Categorização" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Subcategoria" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="Double" />
+            <Field name="Solicitante" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Título" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="E-mail" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Departamento" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Contato" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Título2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="E-mail2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Departamento2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Empresa" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Criado(a) por" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Aberto por" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="E-mail3" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Fechado na Abertura" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="Bool" />
+            <Field name="Prioridade" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Reaberto" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="Double" />
+            <Field name="Urgência" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Impacto" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Escalado" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Projeto" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Contagem de reatribuições" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="306" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\KAIQUE~1.SOU\AppData\Local\Temp\Alteryx\Engine_32456_e3c38319988848829c5bb9d591a0e3b9_\Engine_32456_b860d859b05f4e28a7757b452529cad2~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Perfil</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="258" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>YSUSERS.XLSX
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CHAVE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="NOME" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="FRENTE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="E_MAIL" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="NM_EMPRESA_C" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="NM_EMPRESA_U" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="450" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Título2" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="CHAVE" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="Novo/Mês" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="ID_Chamado" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="DATA_ABERTURA" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="DateTime" />
+            <Field name="DATA_FECHAMENTO" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="DateTime" />
+            <Field name="TIPO_CHAMADO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="TMA_HRS" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="FONTE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="INCIDENTE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="Path" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_WString" />
+            <Field name="Problema" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="TIPO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="FUNCIONALIDADE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="CLASSIFICAÇÃO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="CATEGORIA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_WString" />
+            <Field name="SUBCATEGORIA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="TIPO_FUNIL" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="SLA" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="INDICADOR_SLA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="Número" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Título2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="E-mail2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="Novo/Mês" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="ID_Chamado" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="DATA_ABERTURA" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="DateTime" />
+            <Field name="DATA_FECHAMENTO" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="DateTime" />
+            <Field name="TIPO_CHAMADO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="TMA_HRS" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="FONTE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="INCIDENTE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="Path" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_WString" />
+            <Field name="Problema" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="TIPO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="FUNCIONALIDADE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="CLASSIFICAÇÃO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="CATEGORIA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_WString" />
+            <Field name="SUBCATEGORIA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="TIPO_FUNIL" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="SLA" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="INDICADOR_SLA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="Número" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Título2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="E-mail2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="CHAVE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="NOME" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="FRENTE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="E_MAIL" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="NM_EMPRESA_C" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="NM_EMPRESA_U" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="CHAVE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="NOME" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="FRENTE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="E_MAIL" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="NM_EMPRESA_C" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="NM_EMPRESA_U" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="318" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Novo/Mês" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="ID_Chamado" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="DATA_ABERTURA" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="DateTime" />
+            <Field name="DATA_FECHAMENTO" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="DateTime" />
+            <Field name="TIPO_CHAMADO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="TMA_HRS" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="FONTE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="INCIDENTE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="Path" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_WString" />
+            <Field name="Problema" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="TIPO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="FUNCIONALIDADE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="CLASSIFICAÇÃO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="CATEGORIA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_WString" />
+            <Field name="SUBCATEGORIA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="TIPO_FUNIL" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="SLA" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="INDICADOR_SLA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="Número" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Título2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="E-mail2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings>
+        <Position x="354" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"CHAVE","NOME","FRENTE","E_MAIL","NM_EMPRESA_C","NM_EMPRESA_U"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output26">
+          <RecordInfo>
+            <Field name="CHAVE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="NOME" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="FRENTE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="E_MAIL" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="NM_EMPRESA_C" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="NM_EMPRESA_U" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings>
+        <Position x="126" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Número","Estado","Descrição resumida","Descrição","Grupo de atribuição","Referência","Problema","Aberto","Criado em","Encerrado","Category","Path","Categorização","Subcategoria","Solicitante","Título","E-mail","Departamento","Contato","Título2","E-mail2","Departamento2","Empresa","Criado(a) por","Aberto por","E-mail3","Fechado na Abertura","Prioridade","Reaberto","Urgência","Impacto","Escalado","Projeto","Contagem de reatribuições"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output26">
+          <RecordInfo>
+            <Field name="Número" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Estado" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Descrição resumida" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_WString" />
+            <Field name="Descrição" size="3390" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_WString" />
+            <Field name="Grupo de atribuição" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Referência" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Problema" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Aberto" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="DateTime" />
+            <Field name="Criado em" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="DateTime" />
+            <Field name="Encerrado" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="DateTime" />
+            <Field name="Category" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Path" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_WString" />
+            <Field name="Categorização" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Subcategoria" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="Double" />
+            <Field name="Solicitante" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Título" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="E-mail" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Departamento" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Contato" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Título2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="E-mail2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Departamento2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Empresa" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Criado(a) por" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Aberto por" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="E-mail3" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Fechado na Abertura" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="Bool" />
+            <Field name="Prioridade" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Reaberto" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="Double" />
+            <Field name="Urgência" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Impacto" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Escalado" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Projeto" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Contagem de reatribuições" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings>
+        <Position x="126" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Novo/Mês","ID_Chamado","DATA_ABERTURA","DATA_FECHAMENTO","TIPO_CHAMADO","TMA_HRS","FONTE","INCIDENTE","Path","Problema","TIPO","FUNCIONALIDADE","CLASSIFICAÇÃO","CATEGORIA","SUBCATEGORIA","TIPO_FUNIL","SLA","INDICADOR_SLA"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output26">
+          <RecordInfo>
+            <Field name="Novo/Mês" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="ID_Chamado" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="DATA_ABERTURA" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="DateTime" />
+            <Field name="DATA_FECHAMENTO" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="DateTime" />
+            <Field name="TIPO_CHAMADO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="TMA_HRS" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="FONTE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="INCIDENTE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="Path" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_WString" />
+            <Field name="Problema" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="TIPO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="FUNCIONALIDADE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="CLASSIFICAÇÃO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="CATEGORIA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_WString" />
+            <Field name="SUBCATEGORIA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="TIPO_FUNIL" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="SLA" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="INDICADOR_SLA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="618" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Novo/Mês" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="ID_Chamado" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="DATA_ABERTURA" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="DateTime" />
+            <Field name="DATA_FECHAMENTO" size="19" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="DateTime" />
+            <Field name="TIPO_CHAMADO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="TMA_HRS" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="FONTE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="INCIDENTE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="Path" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_WString" />
+            <Field name="Problema" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="TIPO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="FUNCIONALIDADE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="CLASSIFICAÇÃO" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="CATEGORIA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_WString" />
+            <Field name="SUBCATEGORIA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="TIPO_FUNIL" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="SLA" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="Double" />
+            <Field name="INDICADOR_SLA" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Dados_Compras.xlsx|||`Plan1$`" type="V_String" />
+            <Field name="Número" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="Título2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="E-mail2" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\Apoio - Chaves de Chamados\Chaves de Chamados.xlsx|||`Page 1$`" type="V_String" />
+            <Field name="CHAVE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="NOME" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="FRENTE" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="E_MAIL" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="NM_EMPRESA_C" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+            <Field name="NM_EMPRESA_U" size="255" source="File: C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\YSUSERS.XLSX|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="750" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\kaique.souza\OneDrive - Procurement Negocios Eletronicos S A\Área de Trabalho\Painéis\Painel SIGAT - Acompanhamento TMR\Insumos\Ofensores_Compras\COMPRAS_CONSOLIDADO.xlsx|||Planilha1</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <MipTenantId />
+            <PreserveFormat>False</PreserveFormat>
+            <MipSensitivity />
+            <UNCLocal>False</UNCLocal>
+            <SkipFieldNames>False</SkipFieldNames>
+            <SuppressBlankFile>False</SuppressBlankFile>
+            <OutputOption>Append</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>COMPRAS_CONSOLIDADO.xlsx
+Query=Planilha1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="546" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\KAIQUE~1.SOU\AppData\Local\Temp\Alteryx\Engine_32456_e3c38319988848829c5bb9d591a0e3b9_\Engine_32456_92ceae5df82849b5a9195df384bc7179~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Perfil</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="654" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\KAIQUE~1.SOU\AppData\Local\Temp\Alteryx\Engine_32456_e3c38319988848829c5bb9d591a0e3b9_\Engine_32456_1b78b9910e9541e7a65ba3b2d0371267~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Perfil</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="15" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="14" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="3" Connection="Left" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="13" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Left" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="9" Connection="Left" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="9" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output26" />
+      <Destination ToolID="9" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output26" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output26" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>(F) Fluxo_Compras</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="dffbd75a-c063-4ba2-b470-d354b529b8a2" />
+      <Telemetry>
+        <PreviousWorkflowId value="6c63d0c1-41c5-487a-a2f2-022d8639b51a" />
+        <OriginWorkflowId value="90d5a848-9934-4720-b45e-5a33fe146a2f" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Perguntas</Description>
+          <Name>Tabulação (18)</Name>
+          <ToolId value="18" />
+          <Questions />
+        </Question>
+      </Questions>
+      <ModuleType>Wizard</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="12" Selected="False" />
+        <Tool ToolId="11" Selected="False" />
+        <Tool ToolId="6" Selected="False" />
+        <Tool ToolId="13" Selected="True" />
+        <Tool ToolId="14" Selected="True" />
+        <Tool ToolId="15" Selected="True" />
+        <Tool ToolId="17" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
